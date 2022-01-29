@@ -106,7 +106,6 @@ int rangeSumBST(TreeNode* root, int low, int high) {
 
 int rangeSumBST(TreeNode* node, int low, int high, int *sum) {
     if (node == nullptr) {
-        cout << "Root is null. Sum is " << sum << endl;
         return 0;
     }
     int nodeValue = node->val;
