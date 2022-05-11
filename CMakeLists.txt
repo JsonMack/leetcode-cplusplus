@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(leetcode_cplusplus)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(leetcode_cplusplus main.cpp MoveZeroesSolution.cpp MoveZeroesSolution.h)
 add_executable(remove_linked_list_elements remove_linked_list_elements/main.cpp)
@@ -11,3 +11,6 @@ add_executable(swapping_nodes swapping_nodes/main.cpp)
 add_executable(remove_nth_node remove_nth_node/main.cpp)
 add_executable(add_two_numbers medium/AddTwoNumbers.cpp path_sum/main.cpp)
 add_executable(center_of_graph center_of_graph/main.cpp)
+add_executable(n_ary n_ary_tree_postorder_traversal/main.cpp)
+add_executable(n_ary_level_order n_ary_tree_level_order_traversal/main.cpp)
+add_executable(longest_substring_without_replicas longest_substring_without_replicas/main.cpp)
